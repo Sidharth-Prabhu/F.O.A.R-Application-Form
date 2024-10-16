@@ -1,0 +1,189 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    animation: fadeIn 0.5s ease-in-out;
+}
+input::placeholder {
+    color: #888;
+    /* Change this to your desired color */
+    opacity: 1;
+    /* Ensures the color is fully applied, especially in Firefox */
+}
+
+/* For textarea as well */
+textarea::placeholder {
+    color: #888;
+    /* Change this to your desired color */
+    opacity: 1;
+    /* Ensures the color is fully applied */
+}
+
+p {
+    color: #ffffff;
+}
+
+.form-container {
+    background-color: #000000;
+    padding: 30px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    /* Center align the logo and title */
+}
+
+/* Logo Styles */
+.logo-container {
+    margin-bottom: 20px;
+    /* Space between logo and title */
+}
+
+.logo {
+    max-width: auto;
+    /* Adjust the size as needed */
+    height: 70px;
+}
+
+/* Form Title Styles */
+.form-title {
+    font-size: 28px;
+    margin-bottom: 30px;
+    /* Space between title and form steps */
+    color: #ffffff;
+    /* Darker color for the title */
+}
+
+form {
+    width: 100%;
+}
+
+.form-step {
+    display: none;
+    animation: slideIn 0.5s ease-in-out;
+    text-align: left;
+}
+
+.form-step.active {
+    display: block;
+}
+
+h2 {
+    font-size: 26px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+    width: 100%;
+    padding: 14px 22px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 12px;
+}
+
+.options label {
+    display: block;
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 14px 22px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button.prev-btn {
+    background-color: #6c757d;
+}
+
+button.prev-btn:hover {
+    background-color: #5a6268;
+}
+
+button.submit-btn {
+    background-color: #28a745;
+}
+
+button.submit-btn:hover {
+    background-color: #218838;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    font-size: 20px;
+}
+
+label {
+    color: #ffffff;
+}
+
+.hidden {
+    display: none !important;
+    /* Ensures hidden elements remain hidden */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Responsive Logo */
+@media (max-width: 600px) {
+    .logo {
+        max-width: auto;
+        height: 40px;
+        /* Smaller logo on mobile devices */
+    }
+
+    .form-title {
+        font-size: 24px;
+        /* Slightly smaller title on mobile */
+    }
+}

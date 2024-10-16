@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frissco Online Applicant Registration</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Search Engine Optimization - SEO -->
+    <title>F.O.A.R - Frissco Online Applicant Registration</title>
+    
+    <!-- Meta Description: Brief summary of your page (between 150-160 characters) -->
+    <meta name="description"
+        content="F.O.A.R is a method to apply to work on Frissco Media Group, A startup company containing a IT and Media Production Unit together. Takes freelancing orders from clients all around the world.">
+    
+    <!-- Meta Keywords: Not as important for SEO anymore but can be used -->
+    <meta name="keywords" content="Frissco Media Group, FOAR, Frissco, Sidharth Prabhu, Sidharth P.L">
+    
+    <!-- Meta Author: The author of the site -->
+    <meta name="author" content="Frissco Creative Labs">
+    
+    <!-- Open Graph (OG) Tags for better social media sharing -->
+    <meta property="og:title" content="F.O.A.R - Frissco Online Applicant Registration">
+    <meta property="og:description"
+        content="F.O.A.R is a method to apply to work on Frissco Media Group, A startup company containing a IT and Media Production Unit together. Takes freelancing orders from clients all around the world.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://foarapplication.netlify.app">
+    <!-- <meta property="og:image" content="/branding/fulltransparent.png"> -->
+    
+    <!-- Twitter Card for better link sharing on Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="F.O.A.R - Frissco Online Applicant Registration">
+    <meta name="twitter:description"
+        content="F.O.A.R is a method to apply to work on Frissco Media Group, A startup company containing a IT and Media Production Unit together. Takes freelancing orders from clients all around the world.">
+    <!-- <meta name="twitter:image" content="/branding/fulltransparent.png"> -->
+    
+    <!-- Canonical URL to avoid duplicate content issues -->
+    <!-- <link rel="canonical" href="https://www.yoursite.com/your-page"> -->
+    
+    <!-- Robots Meta Tag to control search engine crawling -->
+    <!-- <meta name="robots" content="index, follow"> -->
+    
+    <!-- Link to CSS stylesheet -->
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+</head>
+
+<body>
+    <div class="form-container">
+        <!-- Logo Section -->
+        <div class="logo-container">
+            <img src="logo.png" alt="Frissco Logo" class="logo">
+        </div>
+        
+        <!-- Form Title -->
+        <h1 class="form-title">F.O.A.R Application Form (2025)</h1>
+
+        <form id="application-form" action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="ecdab183-c7d4-4321-bd74-bb6a1a240387" />
+            <input type="hidden" name="subject" value="New application for F.O.A.R">
+            <input type="hidden" name="from_name" value="Frissco Online Applicant Registration">
+            <input type="hidden" name="replyto" value="thefrisscoteamofficial@gmail.com">
+            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+            <input type="hidden" name="redirect" value="https://foarapplication.netlify.app/submission">
+
+            <!-- Step 1: Name -->
+            <div class="form-step active">
+                <h2>What is your name?</h2>
+                <input type="text" name="Name" placeholder="Name" required>
+                <button type="button" class="next-btn">Next</button>
+            </div>
+
+            <!-- Step 2: Email -->
+            <div class="form-step">
+                <h2>Enter your email address.</h2>
+                <input type="email" name="Email" placeholder="Email" required>
+                <button type="button" class="prev-btn">Back</button>
+                <button type="button" class="next-btn">Next</button>
+            </div>
+
+            <!-- Step 3: Contact Number -->
+            <div class="form-step">
+                <h2>Enter your contact number.</h2>
+                <input type="tel" name="Contact" placeholder="Mobile Number" required>
+                <button type="button" class="prev-btn">Back</button>
+                <button type="button" class="next-btn">Next</button>
+            </div>
+
+            <!-- Step 4: Social Media Handle -->
+            <div class="form-step">
+                <h2>Enter any of your social media handle for contacting you (Ex: Instagram, Snapchat, Facebook, X)</h2>
+                <input type="text" name="Social Media" placeholder="@SocialMediaHandle" required>
+                <button type="button" class="prev-btn">Back</button>
+                <button type="button" class="next-btn">Next</button>
+            </div>
+
+            <!-- Step 5: Why Frissco -->
+            <div class="form-step">
+                <h2>Why do you want to be in Frissco?</h2>
+                <textarea name="Reason to be in Frissco" rows="4" placeholder="Enter a reason why you're signing up for Frissco.." required></textarea>
+                <button type="button" class="prev-btn">Back</button>
+                <button type="button" class="next-btn">Next</button>
+            </div>
+
+            <!-- Step 6: Aim to Work in Frissco -->
+            <div class="form-step">
+                <h2>What is your aim to work in Frissco?</h2>
+                <textarea name="Aim to work in Frissco" rows="4" placeholder="What is your aim to work in Frissco?" required></textarea>
+                <button type="button" class="prev-btn">Back</button>
+                <button type="button" class="next-btn">Next</button>
+            </div>
+
+            <!-- Step 7: Short Period -->
+            <div class="form-step">
+                <h2>Do you want to work in Frissco for a short term?</h2>
+                <div class="options">
+                    <label>
+                        <input type="radio" name="Work for short term" value="Yes" required> Yes
+                    </label>
+                    <label>
+                        <input type="radio" name="Work for short term" value="No" required> No
+                    </label>
+                </div>
+                <button type="button" class="prev-btn">Back</button>
+                <button type="button" class="next-btn">Next</button>
+            </div>
+
+            <!-- Step 8: Select Units -->
+            <div class="form-step">
+                <h2>Select the units of Frissco you wish to work for *</h2>
+                <fieldset>
+                    <label>
+                        <input type="checkbox" name="Signed up for" value="Frissco Media Productions"> Frissco Media Productions
+                    </label><br>
+                    <label>
+                        <input type="checkbox" name="Signed up for" value="Frissco Creative Labs"> Frissco Creative Labs
+                    </label><br>
+                    <label>
+                        <input type="checkbox" name="Signed up for" value="Frissco Freelancing Services"> Frissco Freelancing
+                        Services
+                    </label><br>
+                    <label>
+                        <input type="checkbox" name="Signed up for" value="Frissco for Businesses"> Frissco for Businesses
+                    </label>
+                </fieldset>
+                <button type="button" class="prev-btn">Back</button>
+                <button type="button" class="next-btn">Next</button>
+            </div>
+
+            <!-- Step 9: Creative Labs Skills -->
+            <div class="form-step" id="creative-skills-step">
+                <h2>Select the skills below if you have selected Frissco Creative Labs.</h2>
+                <fieldset>
+                    <legend>What are your skills?</legend>
+                    <label><input type="checkbox" name="Creative Labs Skills" value="Python"> Python</label><br>
+                    <label><input type="checkbox" name="Creative Labs Skills" value="Java"> Java</label><br>
+                    <label><input type="checkbox" name="Creative Labs Skills" value="C/C++"> C/C++</label><br>
+                    <label><input type="checkbox" name="Creative Labs Skills" value="Linux"> Linux</label><br>
+                    <label><input type="checkbox" name="Creative Labs Skills" value="UI/UX Design"> UI/UX Design</label><br>
+                    <label><input type="checkbox" name="Creative Labs Skills" value="Google Firebase"> Google
+                        Firebase</label><br>
+                    <label><input type="checkbox" name="Creative Labs Skills" value="Web Development"> Web
+                        Development</label><br>
+                    <label><input type="checkbox" name="Creative Labs Skills" value="Kotlin"> Kotlin</label><br>
+                    <label><input type="checkbox" name="Creative Labs Skills" value="Android Studio"> Android
+                        Studio</label><br>
+                    <label><input type="checkbox" name="Creative Labs Skills" value="Artificial Intelligence"> Artificial
+                        Intelligence</label><br>
+                    <label><input type="checkbox" name="Creative Labs Skills" value="Visual Studio"> Visual
+                        Studio</label><br>
+                    <label><input type="checkbox" name="Creative Labs Skills" value="React"> React</label><br>
+                    <label><input type="checkbox" name="Creative Labs Skills" value="Flutter"> Flutter</label><br>
+                    <label><input type="checkbox" name="Creative Labs Skills" value="SWIFT (iOS Development)"> SWIFT (iOS
+                        Development)</label><br>
+                    <label><input type="checkbox" name="Creative Labs Skills" value="Unity"> Unity</label><br>
+                    <label><input type="checkbox" name="Creative Labs Skills" value="Unreal Engine"> Unreal
+                        Engine</label><br>
+                    <label><input type="checkbox" name="Creative Labs Skills" value="Game Maker Studio"> Game Maker
+                        Studio</label><br>
+                    <label><input type="checkbox" name="Creative Labs Skills" value="Hypervisor"> Hypervisor</label><br>
+                    <label><input type="checkbox" name="Creative Labs Skills" value="Autodesk Autocad"> Autodesk
+                        Autocad</label><br>
+                    <label><input type="checkbox" name="Creative Labs Skills" value="Other"> Other:</label>
+                    <input type="text" name="Creative Labs other skills">
+                </fieldset>
+                <button type="button" class="prev-btn">Back</button>
+                <button type="button" class="next-btn">Next</button>
+            </div>
+
+            <!-- Step 10: Media Productions Skills -->
+            <div class="form-step" id="media-skills-step">
+                <h2>Select the skills below if you have selected Frissco Media Productions.</h2>
+                <fieldset>
+                    <legend>What are your skills?</legend>
+                    <label><input type="checkbox" name="Media Production Skills" value="Adobe Premiere Pro"> Adobe Premiere
+                        Pro</label><br>
+                    <label><input type="checkbox" name="Media Production Skills" value="Adobe Photoshop"> Adobe
+                        Photoshop</label><br>
+                    <label><input type="checkbox" name="Media Production Skills" value="Adobe Lightroom"> Adobe
+                        Lightroom</label><br>
+                    <label><input type="checkbox" name="Media Production Skills" value="Adobe After Effects"> Adobe After
+                        Effects</label><br>
+                    <label><input type="checkbox" name="Media Production Skills" value="Adobe Animate"> Adobe Animate</label><br>
+                    <label><input type="checkbox" name="Media Production Skills" value="Adobe Illustrator"> Adobe
+                        Illustrator</label><br>
+                    <label><input type="checkbox" name="Media Production Skills" value="DaVinci Resolve"> DaVinci
+                        Resolve</label><br>
+                    <label><input type="checkbox" name="Media Production Skills" value="Cinema 4D"> Cinema 4D</label><br>
+                    <label><input type="checkbox" name="Media Production Skills" value="Blender"> Blender</label><br>
+                    <label><input type="checkbox" name="Media Production Skills" value="AVID Media Composer"> AVID Media
+                        Composer</label><br>
+                    <label><input type="checkbox" name="Media Production Skills" value="AVID Pro Tools"> AVID Pro Tools</label><br>
+                    <label><input type="checkbox" name="Media Production Skills" value="Final Cut Pro"> Final Cut Pro</label><br>
+                    <label><input type="checkbox" name="Media Production Skills" value="Logic Pro"> Logic Pro</label><br>
+                    <label><input type="checkbox" name="Media Production Skills" value="Wondershare Filmora"> Wondershare
+                        Filmora</label><br>
+                    <label><input type="checkbox" name="Media Production Skills" value="Canva"> Canva</label><br>
+                    <label><input type="checkbox" name="Media Production Skills" value="Autodesk Maya"> Autodesk Maya</label><br>
+                    <label><input type="checkbox" name="Media Production Skills" value="Other"> Other:</label>
+                    <input type="text" name="Media Production other skills">
+                </fieldset>
+                <button type="button" class="prev-btn">Back</button>
+                <button type="button" class="next-btn">Next</button>
+            </div>
+
+            <!-- Step 11: Additional Skills -->
+            <div class="form-step">
+                <h2>Choose additional Skills *</h2>
+                <fieldset>
+                    <label><input type="checkbox" name="Additional Skills" value="Document Typing"> Document
+                        Typing</label><br>
+                    <label><input type="checkbox" name="Additional Skills" value="Dubbing"> Dubbing</label><br>
+                    <label><input type="checkbox" name="Additional Skills" value="Social Media Handles"> Social Media
+                        Handles</label><br>
+                    <label><input type="checkbox" name="Additional Skills" value="Management"> Management</label><br>
+                    <label><input type="checkbox" name="Additional Skills" value="Server Maintenance"> Server
+                        Maintenance</label><br>
+                    <label><input type="checkbox" name="Additional Skills" value="Customer Handling"> Customer
+                        Handling</label><br>
+                    <label><input type="checkbox" name="Additional Skills" value="Other"> Other:</label>
+                    <input type="text" name="Other additional skills">
+                </fieldset>
+                <button type="button" class="prev-btn">Back</button>
+                <button type="button" class="next-btn">Next</button>
+            </div>
+
+            <!-- Step 12: Admins -->
+            <div class="form-step">
+                <h2>Do you know any of our admin members personally?</h2>
+                <select name="Admin members referal" required>
+                    <option value="" disabled selected>Select an option</option>
+                    <option value="Sidharth Prabhu - CEO/Founder">Sidharth Prabhu - CEO/Founder</option>
+                    <option value="Shreyas - CIO/Co-Founder">Shreyas - CIO/Co-Founder</option>
+                    <option value="Lokith Parthi - CMO">Lokith Parthi - CMO</option>
+                    <option value="Kishor B - COO">Kishor B - COO</option>
+                    <option value="Dhaarini - R&D Lead">Dhaarini - R&D Lead</option>
+                    <option value="N/A">I'm new here</option>
+                </select>
+                <!-- <input type="text" name="admin_other" id="admin_other" placeholder="Please specify" class="hidden"> -->
+                <button type="button" class="prev-btn">Back</button>
+                <button type="button" class="next-btn">Next</button>
+            </div>
+
+            <!-- Step 13: Interview Method -->
+            <div class="form-step">
+                <h2>Choose a method of interview:</h2>
+                <select name="Interview mode" required>
+                    <option value="" disabled selected>Select an option</option>
+                    <option value="Online">Online</option>
+                    <option value="Offline">Offline</option>
+                </select>
+                <button type="button" class="prev-btn">Back</button>
+                <button type="submit" class="submit-btn">Submit</button>
+            </div>
+
+            <!-- Thank You Message -->
+            <div class="form-step">
+                <h2>Thank you for applying!</h2>
+                <p>We have received your application and will get back to you shortly.</p>
+            </div>
+
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
